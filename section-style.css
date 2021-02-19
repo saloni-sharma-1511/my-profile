@@ -1,0 +1,50 @@
+/*Custom Section*/
+
+.card-green{
+	background-color: #22D8C8;
+	padding: 5px;
+	box-shadow: 0px 5px 20px rgba(0,0,0,0.1);
+	border-radius: 5px;
+	margin: 20px 0;
+	text-align: center;
+	color: white;
+	min-width: 250px;
+}
+
+.card-green h6, .card-green h3{
+	margin: 0;
+	padding: 5px;
+}
+
+.img-section{
+	height: 100px;
+	filter: opacity(25%);
+}
+
+.content-section h3, h4, h5{
+	justify-content: left;
+	text-align: left;
+	font-weight: 400;
+}
+
+/*Form*/
+
+form{
+	width: 250px;
+}
+
+input[type=text],input[type=email],textarea{
+	border: 1px solid rgba(0,0,0,0.3);
+    height: 2em;
+    border-radius: 5px;
+    padding: 0px 10px;
+    margin: 10px 0;
+    width: 230px
+}
+
+textarea{
+	height: 5em;
+	padding: 5px 10px;
+	font-family: 'Roboto', serif;
+	max-width: 230px;
+}
